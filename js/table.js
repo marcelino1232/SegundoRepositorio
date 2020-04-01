@@ -49,6 +49,7 @@ function CargarList()
        contenido += thead[t];
        contenido += "</th>";
     }
+    contenido += "<th>Proceso</th>";
     contenido += "</tr>";
     contenido += "</thead>";
     
@@ -64,6 +65,7 @@ function CargarList()
             contenido += data[i][fila];
             contenido += "</td>";
         }
+        contenido += "<td><button type='button' class='btn btn-success'>Success</button></td>";
         contenido += "</tr>";
     }
 
